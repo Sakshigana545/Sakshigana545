@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @sakshishirke
+m- 👋 Hi, I’m @sakshishirke
 - 👀 I’m interested in web technology 
 - 🌱 I’m currently learning backend of web development
-- 💞️ I’m looking to collaborate on elon musk
+- 💞️ I’m looking to collaborate with elon musk
 - 📫 How to reach me sakshishirke548@gmail.com
 
 <!---
