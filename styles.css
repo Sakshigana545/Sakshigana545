@@ -1,0 +1,96 @@
+body{
+    background-color: white;
+    color:black;
+    margin:auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  padding-top:1rem ;
+  padding-bottom: 3rem;
+    flex-wrap: nowrap;
+}
+
+.log img,
+.log2 img {
+  max-height: 6.25rem; /* ~100px if root font-size is 16px */
+  width: auto;
+  display: block;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.heading {
+  text-align: center;
+  flex-grow: 1;
+  padding: 0 1.25rem;
+}
+
+.heading h1 {
+  margin: 0.3rem 0;
+  font-size: 2rem;
+}
+
+.heading h3,
+.heading h4 {
+  margin: 0.15rem 0;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+@media (max-width: 48em) {
+    .header {
+      padding: 0.6rem 1%;
+    }
+    .log img,
+    .log2 img {
+      max-height: 4.375rem; /* ~70px */
+    }
+    .heading h1 {
+      font-size: 1.5rem;
+    }
+    .heading {
+      padding: 0 0.6rem;
+    }
+  }
+  
+
+
+
+
+@media (max-width: 30em) {
+    .header {
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding: 0.6rem 0.3rem;
+    }
+  
+    .log,
+    .log2 {
+      flex: 0 0 100%;
+      margin-bottom: 0.625rem;
+    }
+  
+    .log img,
+    .log2 img {
+      max-height: 3.125rem; /* ~50px */
+      margin: 0 auto;
+    }
+  
+    .heading {
+      flex: 0 0 100%;
+      padding: 0;
+    }
+  
+    .heading h1 {
+      font-size: 1.3rem;
+    }
+  
+    .heading h3,
+    .heading h4 {
+      font-size: 0.9rem;
+    }
+  }
